@@ -19,14 +19,53 @@ body {
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  transform:translate(20%,0px);
+  transform:translate(40%,0px);
 }
 .communitydesc {
   background-color: #FEFCFB;
-  width:150px;
+  width:200px;
   height: 300px;
   margin-top: 5%;
 }
 .text {
   margin-top: 6%;
+  margin-left:5%;
+}
+.moveit {
+  transform:translate(10%, 5%);
+}
+#layer {
+  background-color: #011638;
+  margin-top: 7%;
+  height: 1100px;
+}
+#twolayer {
+  display: inline-block;
+  background-color: #0D21A1;
+  margin-top: 3%;
+  height: 1080px;
+  width: 800px;
+  margin-left: 4%;
+}
+.tab {
+  display: inline-block;
+  height: 5%;
+  width: 100%;
+  background-color: #FEFCFB;
+  margin-left: 0.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.subprofile {
+  height: 40px;
+  width: 40px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 1%;
+
+}
+.guildtext {
+  transform: translate(25%, -150%);
 }
